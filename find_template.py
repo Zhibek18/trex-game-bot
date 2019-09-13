@@ -2,7 +2,7 @@ import cv2
 import matplotlib.image as mpimg
 from matplotlib import pyplot as plt
 
-screenshot = cv2.imread('assets/screenshot.png', 0)
+screenshot = cv2.imread('assets/screenshot_end.png', 0)
 template = cv2.imread('assets/dino.png', 0)
 h = template.shape[0]
 w = template.shape[1]
