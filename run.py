@@ -15,7 +15,7 @@ vision = Vision()
 
 controller.set_mouse_position(250, 250)
 controller.click_left() #click to set active window with game
-controller.press_space() #start game
+controller.press_space()
 controller.press_space() #start game
 vision.find_cactus()
 
@@ -25,4 +25,3 @@ while True:
         time.sleep(0.1)
     time.sleep(0.0001)
     #time.sleep(0.1)
-
